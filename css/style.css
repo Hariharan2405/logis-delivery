@@ -59,7 +59,7 @@
 	.about-row{
 	display:flex;
 	flex-wrap:wrap;
-	padding:1em 0 3em;
+	padding:1em 0 0;
 	}
 	.about-content{
 	width:100%;
@@ -305,6 +305,7 @@ nav ul{
 }
 .extra{
 	background-color: rgba(14, 29, 52, 0.9);
+	color: #fff;
 }
 .extra .drop-down{
 	flex-direction:column;
@@ -433,7 +434,7 @@ ul .ddl1, ul .ddl2{
 	padding:1em 0;
 	justify-content:space-between;
 	align-items:flex-top;
-	padding:5em 0;
+	padding:5em 0 0;
 }
 .feature-col{
 	display:flex;
@@ -467,6 +468,9 @@ ul .ddl1, ul .ddl2{
 	padding:1em 0;
 	line-height:1.5em;
 	font-weight:100;
+}
+#about{
+	padding-top: 5em;
 }
 .about-content>h1{
 	padding-bottom:.5em;
@@ -536,6 +540,9 @@ ul .ddl1, ul .ddl2{
 @keyframes cover{
 	0%{font-size:20px;opacity:1;}
 	100%{font-size:300px;opacity:0;}
+}
+.service-row{
+	padding-top: 3em;
 }
 .service-title{
 	text-align:center;
@@ -636,7 +643,7 @@ ul .ddl1, ul .ddl2{
 .content-row{
 	display:flex;
 	align-items:center;
-	margin:6% 0;
+	margin:6% 0 0;
 }
 .content-row li{
 	line-height:28px;
@@ -660,7 +667,7 @@ ul .ddl1, ul .ddl2{
 	font-style:italic;
 }
 .pricing-row{
-	padding:0 0 4em;
+	padding:3em 0 4em;
 }
 .pricing-title{
 	text-align:center;
@@ -897,4 +904,7 @@ ul .xx, .xx i{
 	padding-top:3em;
 	line-height:25px;
 	color:#fff;
+}
+.hbtn,.extra li{
+	font-size: 12px;
 }
